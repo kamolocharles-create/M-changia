@@ -1,0 +1,32 @@
+# Environment secrets — NEVER commit this
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+venv/
+env/
+.venv/
+
+# Database (SQLite for dev — don't commit)
+*.db
+*.sqlite3
+
+# Generated PDF reports
+reports/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
